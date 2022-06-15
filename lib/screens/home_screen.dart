@@ -173,13 +173,13 @@ class _HomeScreenState extends State<HomeScreen> {
     if (xOrOList[3] == xOrOList[4] &&
         xOrOList[3] == xOrOList[5] &&
         xOrOList[3] != '') {
-      setResult(xOrOList[0], 'Winner is ${xOrOList[3]}');
+      setResult(xOrOList[3], 'Winner is ${xOrOList[3]}');
       return;
     }
     if (xOrOList[6] == xOrOList[7] &&
         xOrOList[6] == xOrOList[8] &&
         xOrOList[6] != '') {
-      setResult(xOrOList[0], 'Winner is ${xOrOList[6]}');
+      setResult(xOrOList[6], 'Winner is ${xOrOList[6]}');
       return;
     }
     if (xOrOList[0] == xOrOList[3] &&
@@ -191,13 +191,13 @@ class _HomeScreenState extends State<HomeScreen> {
     if (xOrOList[1] == xOrOList[4] &&
         xOrOList[1] == xOrOList[7] &&
         xOrOList[1] != '') {
-      setResult(xOrOList[0], 'Winner is ${xOrOList[1]}');
+      setResult(xOrOList[1], 'Winner is ${xOrOList[1]}');
       return;
     }
     if (xOrOList[2] == xOrOList[5] &&
         xOrOList[2] == xOrOList[8] &&
         xOrOList[2] != '') {
-      setResult(xOrOList[0], 'Winner is ${xOrOList[2]}');
+      setResult(xOrOList[2], 'Winner is ${xOrOList[2]}');
       return;
     }
     if (xOrOList[0] == xOrOList[4] &&
@@ -209,7 +209,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (xOrOList[2] == xOrOList[4] &&
         xOrOList[2] == xOrOList[6] &&
         xOrOList[2] != '') {
-      setResult(xOrOList[0], 'Winner is ${xOrOList[2]}');
+      setResult(xOrOList[2], 'Winner is ${xOrOList[2]}');
       return;
     }
     if (filledBoxes == 9) {
